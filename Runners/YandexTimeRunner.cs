@@ -6,7 +6,7 @@ namespace GetYandexTime.Runners
 {
     public class YandexTimeRunner
     {
-        public async static Task Run(IYandexTimeService yandexTimeService, long geoId)
+        public static async Task Run(IYandexTimeService yandexTimeService, long geoId)
         {
             var model = await yandexTimeService.GetTimeInfo(geoId);
             Console.WriteLine(model.ToString());
