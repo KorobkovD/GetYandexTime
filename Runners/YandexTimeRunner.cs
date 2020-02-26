@@ -8,7 +8,7 @@ namespace GetYandexTime.Runners
     {
         public static async Task Run(IYandexTimeService yandexTimeService, long geoId)
         {
-            var model = await yandexTimeService.GetTimeInfo(geoId);
+            var model = await yandexTimeService.GetYandexClocks(geoId);
             Console.WriteLine(model.ToString());
         }
     }

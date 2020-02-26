@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Yandex.Entities.Models;
+using Yandex.Entities;
 
 namespace Yandex.Services.Contract
 {
@@ -9,9 +9,9 @@ namespace Yandex.Services.Contract
     public interface IYandexTimeService
     {
         /// <summary>
-        /// Получить информацию о времени
+        /// Получить информацию о времени и погоде
         /// </summary>
         /// <param name="geoId">Идентификатор населенного пункта</param>
-        Task<YandexTimeModel> GetTimeInfo(long geoId);
+        Task<YandexClocks> GetYandexClocks(long geoId);
     }
 }

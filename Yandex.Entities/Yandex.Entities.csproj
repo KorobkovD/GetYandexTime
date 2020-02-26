@@ -44,9 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\YandexTimeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YandexClocks.cs" />
+    <Compile Include="YandexTimeInfo.cs" />
     <Compile Include="YandexTimeResponseFieldNames.cs" />
+    <Compile Include="YandexWeather.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
