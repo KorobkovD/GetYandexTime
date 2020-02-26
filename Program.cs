@@ -1,7 +1,7 @@
 ﻿using GetYandexTime.Runners;
-using GetYandexTime.Services;
 using System;
 using System.Threading.Tasks;
+using Yandex.Services;
 
 namespace GetYandexTime
 {

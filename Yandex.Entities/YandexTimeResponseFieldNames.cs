@@ -1,4 +1,4 @@
-﻿namespace GetYandexTime.Utilities
+﻿namespace Yandex.Entities
 {
     /// <summary>
     /// Имена полей в возвращаемом json

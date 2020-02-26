@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using GetYandexTime.Contracts;
+using Yandex.Services.Contract;
 
 namespace GetYandexTime.Runners
 {

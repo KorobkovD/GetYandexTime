@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Text;
-using GetYandexTime.Utilities;
 using Newtonsoft.Json.Linq;
 
-namespace GetYandexTime.Models
+namespace Yandex.Entities.Models
 {
     /// <summary>
     /// Модель для представления данных от сервиса Yandex Time

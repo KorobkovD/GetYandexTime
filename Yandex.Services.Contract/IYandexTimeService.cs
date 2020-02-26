@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using GetYandexTime.Models;
+using Yandex.Entities.Models;
 
-namespace GetYandexTime.Contracts
+namespace Yandex.Services.Contract
 {
     /// <summary>
     /// Интерфейс сервиса получения времени от Яндекса

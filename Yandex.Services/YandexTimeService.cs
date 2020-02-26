@@ -1,10 +1,10 @@
-﻿using System.Net.Http;
+﻿using Newtonsoft.Json.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
-using GetYandexTime.Contracts;
-using GetYandexTime.Models;
-using Newtonsoft.Json.Linq;
+using Yandex.Entities.Models;
+using Yandex.Services.Contract;
 
-namespace GetYandexTime.Services
+namespace Yandex.Services
 {
     public class YandexTimeService : IYandexTimeService
     {
