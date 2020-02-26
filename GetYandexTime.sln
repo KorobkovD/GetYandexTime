@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetYandexTime", "GetYandexTime.csproj", "{16A9C80D-FAC3-42AB-AD66-108582C361EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yandex.Entities", "Yandex.Entities\Yandex.Entities.csproj", "{918A50E4-FF4D-479C-9886-1BB555BCA52C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yandex.Services.Contract", "Yandex.Services.Contract\Yandex.Services.Contract.csproj", "{0DD16C0A-5AFA-447E-8671-02B7F29771D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yandex.Services", "Yandex.Services\Yandex.Services.csproj", "{A57C0CF9-81F6-433C-BBDB-B9F09B15885B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{16A9C80D-FAC3-42AB-AD66-108582C361EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A9C80D-FAC3-42AB-AD66-108582C361EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A9C80D-FAC3-42AB-AD66-108582C361EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918A50E4-FF4D-479C-9886-1BB555BCA52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918A50E4-FF4D-479C-9886-1BB555BCA52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918A50E4-FF4D-479C-9886-1BB555BCA52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918A50E4-FF4D-479C-9886-1BB555BCA52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD16C0A-5AFA-447E-8671-02B7F29771D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD16C0A-5AFA-447E-8671-02B7F29771D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD16C0A-5AFA-447E-8671-02B7F29771D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD16C0A-5AFA-447E-8671-02B7F29771D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57C0CF9-81F6-433C-BBDB-B9F09B15885B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57C0CF9-81F6-433C-BBDB-B9F09B15885B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57C0CF9-81F6-433C-BBDB-B9F09B15885B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57C0CF9-81F6-433C-BBDB-B9F09B15885B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
